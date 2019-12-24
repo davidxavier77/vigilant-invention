@@ -1,0 +1,10 @@
+namespace ProductDTO
+{
+    public int Id { get; set; }
+    public string ProductName { get; set; }
+
+    public string AlternateProductName { get; set; }
+
+    public string CreatedBy { get; set; }
+    public string UpdatedBy { get; set; }
+}
