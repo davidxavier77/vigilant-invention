@@ -47,17 +47,9 @@
               "target": "Package",
               "version": "[9.0.0, )"
             },
-            "Dapper": {
+            "Microsoft.Data.SqlClient": {
               "target": "Package",
-              "version": "[2.0.30, )"
-            },
-            "DapperExtensions": {
-              "target": "Package",
-              "version": "(, )"
-            },
-            "MediatR.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[1.1.0, )"
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
@@ -73,29 +65,13 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
-            "RabbitMQ.Client": {
-              "target": "Package",
-              "version": "[5.1.2, )"
-            },
-            "Serilog": {
-              "target": "Package",
-              "version": "[2.9.0, )"
-            },
-            "Serilog.AspNetCore": {
-              "target": "Package",
-              "version": "[3.2.0, )"
-            },
-            "Serilog.Extensions.Logging": {
-              "target": "Package",
-              "version": "[3.0.1, )"
-            },
-            "ServiceStack.redis": {
-              "target": "Package",
-              "version": "[5.7.0, )"
-            },
             "System.Diagnostics.EventLog": {
               "target": "Package",
               "version": "[4.7.0, )"
+            },
+            "dapper.contrib": {
+              "target": "Package",
+              "version": "[2.0.30, )"
             }
           },
           "imports": [
